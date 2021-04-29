@@ -15,5 +15,12 @@
         "psr-4": {
             "Vaidotas\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vaidotas\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
